@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(128, 128, 128, 0.267);
+    padding-top: 40px;
+}
+
+.container{
+   border-radius: 6px;
+   background-color: white;
+   padding: 12px 20px 28px 20px;
+   width: 32%;
+   
+   box-sizing: border-box;
+   
+   box-shadow: 3px 3px 3px  rgba(128, 128, 128, 0.39);
+   
+}
+.inline{
+    display: flex;
+    
+    
+}
+.container input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgba(204, 204, 204, 0.966);
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+#date-text{
+   color: black;
+}
+#date, #gender{
+    text-align: start;
+    font-size: small;
+    margin: 1px 0;
+    color: rgba(0, 0, 0, 0.452);
+}
+#fname{
+    margin-right: 3%;
+    width: 50%;
+}
+#sname{
+    width: 50%;
+}
+.gender{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.male, .female,.custom{
+    border: 1px solid rgba(204, 204, 204, 0.966);
+    width: 200px;
+    padding: 8px 0;
+    border-radius: 6px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.male,.female{
+   margin-right: 12px;
+}
+  
+ .container input[type=submit] {
+    width: 50%;
+    background-color: #00a400;
+   
+    color: white;
+    padding: 10px 0;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+    
+}
+ .container input[type=submit]:hover {
+    opacity: 0.9;
+}
+  
+ 
+.abc{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.xyz{
+    color: rgba(128, 128, 128, 0.698);
+   
+    margin-bottom: 0;
+}
+hr{
+   border-top: 1px solid rgba(128, 128, 128, 0.561);
+}
+.link a{
+    color: #1877f2 ;
+    text-decoration: none;
+    font-size: large;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color: rgba(128, 128, 128, 0.698);
+    font-size: 16px;
+}

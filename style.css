@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(128, 128, 128, 0.267);
+    padding-top: 40px;
+}
+
+.container{
+    border-radius: 6px;
+    background-color: white;
+    padding: 20px 20px 28px 20px;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px  rgba(128, 128, 128, 0.39);
+}
+.container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.966);
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+  
+.container input[type=submit] {
+    width: 100%;
+    background-color: #1877f2;
+    opacity: 0.9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 18px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+    
+}
+.container input[type=submit]:hover {
+    opacity: 1.0;
+  }
+  
+ 
+h1{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+.link a{
+    color: #1877f2 ;
+    text-decoration: none;
+    padding: 8px;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color: rgba(128, 128, 128, 0.698);
+    font-size: 16px;
+}
